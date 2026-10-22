@@ -116,6 +116,8 @@ ubus call system board
 Isme `board_name` `jiorouter,ax6000-jidu6j01` dikhna chahiye.
 
 <!-- ![Step 0: Status Overview](screenshots/fw-step-00-status.png) -->
+<img width="1280" height="618" alt="image" src="https://github.com/user-attachments/assets/9af7535d-3f40-4607-8e14-8dcb51927f03" />
+
 
 ---
 
@@ -160,6 +162,8 @@ Get-FileHash $HOME\Desktop\jio-backup\*.bin -Algorithm SHA256
 
 <!-- ![Step 1: Generate archive](screenshots/fw-step-01-backup.png) -->
 
+<img width="1506" height="487" alt="image" src="https://github.com/user-attachments/assets/a8d0ab5d-7dfa-481e-af36-ac550f3cc617" />
+
 ---
 
 ## Step 2: Firmware Selector kholo aur router chuno
@@ -174,6 +178,7 @@ Get-FileHash $HOME\Desktop\jio-backup\*.bin -Algorithm SHA256
 - **Version:** jo aapne chuna (jaise `25.12.6`)
 
 <!-- ![Step 2: Select device and version](screenshots/fw-step-02-select.png) -->
+<img width="1707" height="852" alt="image" src="https://github.com/user-attachments/assets/93bfbab8-7ff8-4f59-b955-3a9320d3d908" />
 
 ---
 
@@ -208,6 +213,10 @@ Yahan **sirf in 4 ko end me joda gaya** hai:
 > Package ka naam galat likha to Step 5 me error aayega. Wahi error batayega ki kaunsa naam hatana hai.
 
 <!-- ![Step 3: Installed packages box](screenshots/fw-step-03-packages.png) -->
+<img width="1606" height="867" alt="image" src="https://github.com/user-attachments/assets/fbd9df7c-7376-4f09-8644-b18464ee4f65" />
+<img width="1607" height="887" alt="image" src="https://github.com/user-attachments/assets/8e2aec38-8c17-467e-8248-3401426d471f" />
+
+
 
 ---
 
@@ -249,6 +258,7 @@ chmod +x /etc/init.d/model-detect
 > Pehli flash ke baad, kabhi-kabhi Status page par model purana (`JIDU6J01`) hi dikhta hai jab tak router ek baar **reboot** na ho (Step 10).
 
 <!-- ![Step 4: First boot script box](screenshots/fw-step-04-script.png) -->
+<img width="1167" height="737" alt="image" src="https://github.com/user-attachments/assets/df7f7752-dfe0-4071-b381-8d3cfb45e80d" />
 
 ---
 
@@ -264,6 +274,7 @@ chmod +x /etc/init.d/model-detect
 - `STDERR` par click karke poora error bhi dekh sakte ho.
 
 <!-- ![Step 5: Build successful](screenshots/fw-step-05-build.png) -->
+<img width="1275" height="851" alt="image" src="https://github.com/user-attachments/assets/28b56938-307c-4563-a22b-ef631c92dafa" />
 
 ---
 
@@ -321,6 +332,7 @@ Laptop charger par rakho, LAN cable se juda rakho, aur ye karo:
 > **Agar "Image check failed" ya koi warning aaye to Force mat dabana.** Ruk jao, aur check karo ki aapne **sysupgrade** wali sahi file chuni hai ya nahi. Phir bhi samajh na aaye to error ka screenshot lekar madad maango (private cheezein chhupa ke).
 
 <!-- ![Step 8: Flash image screen](screenshots/fw-step-08-flash.png) -->
+<img width="911" height="313" alt="image" src="https://github.com/user-attachments/assets/33be360a-83b7-4b7c-aba4-131d1267fe48" />
 
 ---
 
